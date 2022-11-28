@@ -15,7 +15,7 @@ class Wareki:
     __showa = Gengo("昭和", 1925)
     __heisei = Gengo("平成", 1988)
     __reiwa = Gengo("令和", 2018)
-    __wareki_reg = "(明治|大正|昭和|平成|令和)([1-9][0-9]*|元)年"
+    __wareki_reg = "(明治|大正|昭和|平成|令和)([1-9１-９][0-9０-９]*|元)年"
     __first_year_string = "元"
     __gengo_pos = 1
     __nensu_pos = 2
